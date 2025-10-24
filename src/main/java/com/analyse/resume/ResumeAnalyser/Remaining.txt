@@ -1,0 +1,14 @@
+// Remaining Task to be done:
+
+1. Get the Job Description and get his resume and tell the user how much skills will match with job description keywords.
+
+//    Integrate skills into the role analysis
+//    Take your existing extractSkills + extractSkillsByFrequency methods.
+//    Combine them → userSkills set.
+//    Example: ["Java", "Spring Boot", "SQL", "React", "Node.js"]
+
+//    Compare user skills vs expected skills
+//    For each role:
+//    matchedSkills = intersection(userSkills, roleSkills)
+//    missingSkills = roleSkills - userSkills
+//    coverage = matchedSkills.size / roleSkills.size

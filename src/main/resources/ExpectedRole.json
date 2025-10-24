@@ -1,0 +1,96 @@
+[
+  {
+    "role": "Backend Developer",
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "MySQL",
+      "REST API",
+      "Hibernate",
+      "Docker",
+      "PostgresSQL",
+      "Microservices",
+      "Git",
+      "Maven"
+    ]
+  },
+  {
+    "role": "Frontend Developer",
+    "skills": [
+      "JavaScript",
+      "React JS",
+      "HTML",
+      "CSS",
+      "Redux",
+      "TypeScript",
+      "Bootstrap",
+      "Tailwind CSS",
+      "Git",
+      "Webpack"
+    ]
+  },
+  {
+    "role": "Fullstack Developer",
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "MySQL",
+      "REST API",
+      "Docker",
+      "JavaScript",
+      "React JS",
+      "HTML",
+      "CSS",
+      "Node JS",
+      "MongoDB",
+      "Git",
+      "Microservices"
+    ]
+  },
+  {
+    "role": "Data Scientist",
+    "skills": [
+      "Python",
+      "Machine Learning",
+      "Deep Learning",
+      "TensorFlow",
+      "PyTorch",
+      "NumPy",
+      "Pandas",
+      "Matplotlib",
+      "SQL",
+      "Data Visualization",
+      "Statistics"
+    ]
+  },
+  {
+    "role": "DevOps Engineer",
+    "skills": [
+      "Linux",
+      "Docker",
+      "Kubernetes",
+      "AWS",
+      "Jenkins",
+      "Terraform",
+      "CI/CD",
+      "Git",
+      "Ansible",
+      "Monitoring",
+      "Bash Scripting"
+    ]
+  },
+  {
+    "role": "Mobile App Developer",
+    "skills": [
+      "Kotlin",
+      "Android",
+      "Swift",
+      "iOS",
+      "Flutter",
+      "React Native",
+      "UI/UX Design",
+      "Firebase",
+      "Git"
+    ]
+  }
+]
