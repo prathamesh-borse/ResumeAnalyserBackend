@@ -15,6 +15,7 @@ public class CorsConfig {
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/api/**")
                         .allowedOrigins("http://localhost:3000")
+                        .allowedOrigins("https://airesumeanalyse.vercel.app/auth")
                         // .allowedOrigins("http://192.168.1.101:3000") // phone/browser testing
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*")
