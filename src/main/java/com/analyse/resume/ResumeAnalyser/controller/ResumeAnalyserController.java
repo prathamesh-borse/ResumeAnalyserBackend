@@ -37,9 +37,6 @@ public class ResumeAnalyserController {
 
     @PostMapping("/analyzeProfile")
     public ResponseEntity<AnalysisResponseDTO> RoleMatchByUsingResumeText(@RequestParam String jobDescription, @RequestParam("file") MultipartFile multipartFile) throws TikaException, IOException {
-
-        System.out.println("Received JobDescription: " + jobDescription);
-
         // 1. Parse Resume
         Map<String, Object> parsedText = resumeService.parseResume(multipartFile);
         String resumeText = parsedText.get("parsedText").toString();
