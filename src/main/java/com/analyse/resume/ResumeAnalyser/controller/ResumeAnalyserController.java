@@ -28,6 +28,11 @@ public class ResumeAnalyserController {
 
     private GitHubRepo[] githubRepos;
 
+    @PostMapping("/health")
+    public String getHealth() {
+        return "Resume Analyser Service is up and running!";
+    }
+
     @PostMapping("/upload")
     public ResponseEntity<Map<String, Object>> handleFileUpload(@RequestParam("file") MultipartFile multipartFile) throws IOException, TikaException {
         Map<String, Object> parsedText = resumeService.parseResume(multipartFile);
